@@ -1,4 +1,12 @@
 .buttonRow {
   white-space: nowrap;
   overflow-x: scroll;
+  /* Using 24 px here because .controlPane has a padding of 24px */
+  /** Remove the space on the sides when scrolling */
+  margin-right: -24px;
+  margin-left: -24px;
+  /* Remove white space below the scroll bar */
+  margin-bottom: -24px;
+  /* to add a gap on top and on the bottom of the buttons */
+  padding: 24px;
 }
