@@ -6,3 +6,7 @@
   text-align: center;
 }
 
+.link {
+  /* Gets whatever color the parent decides */
+  color: inherit;
+}
